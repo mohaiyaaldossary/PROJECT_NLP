@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "cleaning": {
+    "raw_rows": 10000,
+    "invalid_or_missing_rows": 1,
+    "middle_rating_rows_excluded": 1561,
+    "conflicting_label_rows_removed": 0,
+    "duplicate_rows_removed": 16,
+    "final_rows": 8422
+  },
+  "dataset_sha256": "3dc48a8c82203a2999e4d94bbef9c561e92682b0e09e28b007cb050f2bb116a6",
+  "model": "cardiffnlp/twitter-roberta-base-sentiment",
+  "revision": "daefdd1f6ae931839bce4d0f3db0a1a4265cd50f",
+  "device": "cuda",
+  "vader_threshold": 0.4,
+  "roberta_threshold": 0.3,
+  "selected_model": "RoBERTa",
+  "truncated_test_reviews": 3,
+  "packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.4.2",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "nltk": "3.9.2",
+    "scikit-learn": "1.8.0",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.41.2",
+    "optree": "0.19.1"
+  }
+}

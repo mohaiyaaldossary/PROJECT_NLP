@@ -1,0 +1,17 @@
+[
+  {
+    "source_row": 3200,
+    "excerpt": "Excerpt: Very good hotel, but the close proximity to the toll highway made it a little on the noisy side.",
+    "analysis": "The rating is positive, but the review combines praise with a noise complaint and an unrelated discussion of toll prices. VADER predicts negative and RoBERTa predicts positive. Combining the whole review into a single dictionary score can lose the main hotel opinion. The full text also contains 'not' and 'no' about toll roads, illustrating why a negation cue does not necessarily describe the hotel sentiment."
+  },
+  {
+    "source_row": 1008,
+    "excerpt": "Bad: Expensive. Adding tha taxes become heavy. Good: New age. Excellant service",
+    "analysis": "Both methods predict negative despite the 4.8 rating. The review explicitly contains both a cost complaint and praise for the service. Spelling errors and the short Good/Bad format may make interpretation harder. This is also a limitation of rating-derived labels: a high overall rating does not make every part of the text positive."
+  },
+  {
+    "source_row": 5095,
+    "excerpt": "Guest services was amazing. The condition of the hotel left much to be desired.",
+    "analysis": "Both methods predict positive for this one-star review. The first sentence contains strong praise, while the second criticizes the hotel through an indirect expression. The prediction is consistent with overweighting the explicit positive wording, although this example alone does not establish the models' internal reasoning. The overall rating indicates that the complaint mattered more to the guest."
+  }
+]

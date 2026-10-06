@@ -1,0 +1,5 @@
+text,expected,prediction
+The room was clean and the staff were helpful.,positive,positive
+The room was dirty and the staff were rude.,negative,negative
+The room was not clean and I could not sleep.,negative,negative
+There was no noise at night and the bed was comfortable.,positive,positive
